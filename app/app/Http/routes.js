@@ -18,3 +18,12 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+
+const Book = use('App/Model/Book')
+
+Route.get('/books', function * (request, response) {
+  //Simple get All Posts
+  const books = yield Book.all()
+
+  response.json(books)
+}).middleware('jsonApi')

@@ -17,8 +17,10 @@
     "adonis-commands": "^2.1.2",
     "adonis-fold": "^3.0.3",
     "adonis-framework": "^3.0.5",
+    "adonis-jsonapi": "^0.7.0",
     "adonis-lucid": "^3.0.10",
     "adonis-middleware": "^1.0.8",
+    "adonis-mongorito": "0.0.2",
     "standard": "^8.4.0",
     "youch": "^1.0.1"
   },
