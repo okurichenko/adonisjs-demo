@@ -26,4 +26,4 @@ Route.get('/books', function * (request, response) {
   const books = yield Book.all()
 
   response.json(books)
-}).middleware('jsonApi')
+})
