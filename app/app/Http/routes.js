@@ -25,5 +25,5 @@ Route.get('/books', function * (request, response) {
   //Simple get All Posts
   const books = yield Book.all()
 
-  response.json(books)
+  response.json({ books })
 })
